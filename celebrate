@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 (1..10).each do |i|
   case i%2
   when 0
