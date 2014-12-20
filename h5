@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+f = "./high_five.mp3"
+pid = fork{ exec 'afplay', f }
