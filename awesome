@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+f = "./Everything_Is_Awesome_Lego_Movie_Tegan_and_Sara_feat_The_Lonely_Island.mp3"
+pid = fork{ exec 'afplay', f }
